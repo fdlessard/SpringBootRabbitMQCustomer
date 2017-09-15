@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.rabittmq.domain;
+package io.fdlessard.codebites.rabbitmq.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,32 +6,23 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Version;
 import java.io.Serializable;
-import java.math.BigDecimal;
+import java.util.UUID;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Customer implements Serializable{
+public class Task implements Serializable{
 
     @Id
-    @GeneratedValue
-    private long id;
+    private UUID taskId;
 
     @Version
     private long version;
 
-    private String lastName;
-
-    private String firstName;
-
-    private String company;
-
-    private BigDecimal accountBalance;
-
+    private String status;
 }

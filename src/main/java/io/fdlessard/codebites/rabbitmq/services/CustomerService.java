@@ -1,9 +1,9 @@
-package io.fdlessard.codebites.rabittmq.services;
+package io.fdlessard.codebites.rabbitmq.services;
 
-import io.fdlessard.codebites.rabittmq.SpringBootRabbitMqApplication;
-import io.fdlessard.codebites.rabittmq.domain.Customer;
-import io.fdlessard.codebites.rabittmq.listeners.Message;
-import io.fdlessard.codebites.rabittmq.repositories.CustomerRepository;
+import io.fdlessard.codebites.rabbitmq.SpringBootRabbitMqApplication;
+import io.fdlessard.codebites.rabbitmq.domain.Customer;
+import io.fdlessard.codebites.rabbitmq.listeners.Message;
+import io.fdlessard.codebites.rabbitmq.repositories.CustomerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;

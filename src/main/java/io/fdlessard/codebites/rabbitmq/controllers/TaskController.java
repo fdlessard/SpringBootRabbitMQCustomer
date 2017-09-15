@@ -1,8 +1,8 @@
-package io.fdlessard.codebites.rabittmq.controllers;
+package io.fdlessard.codebites.rabbitmq.controllers;
 
 
-import io.fdlessard.codebites.rabittmq.domain.Task;
-import io.fdlessard.codebites.rabittmq.services.TaskService;
+import io.fdlessard.codebites.rabbitmq.domain.Task;
+import io.fdlessard.codebites.rabbitmq.services.TaskService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

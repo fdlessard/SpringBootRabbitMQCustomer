@@ -1,7 +1,7 @@
-package io.fdlessard.codebites.rabittmq.services;
+package io.fdlessard.codebites.rabbitmq.services;
 
-import io.fdlessard.codebites.rabittmq.domain.Task;
-import io.fdlessard.codebites.rabittmq.repositories.TaskRepository;
+import io.fdlessard.codebites.rabbitmq.domain.Task;
+import io.fdlessard.codebites.rabbitmq.repositories.TaskRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

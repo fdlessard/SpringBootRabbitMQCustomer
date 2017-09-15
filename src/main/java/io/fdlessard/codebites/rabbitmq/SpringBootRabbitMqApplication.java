@@ -1,6 +1,6 @@
-package io.fdlessard.codebites.rabittmq;
+package io.fdlessard.codebites.rabbitmq;
 
-import io.fdlessard.codebites.rabittmq.listeners.CustomerMessageListener;
+import io.fdlessard.codebites.rabbitmq.listeners.CustomerMessageListener;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;

@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.rabittmq.listeners;
+package io.fdlessard.codebites.rabbitmq.listeners;
 
 
 import lombok.AllArgsConstructor;

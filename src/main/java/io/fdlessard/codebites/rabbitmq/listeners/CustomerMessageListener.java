@@ -1,8 +1,8 @@
-package io.fdlessard.codebites.rabittmq.listeners;
+package io.fdlessard.codebites.rabbitmq.listeners;
 
-import io.fdlessard.codebites.rabittmq.domain.Customer;
-import io.fdlessard.codebites.rabittmq.repositories.CustomerRepository;
-import io.fdlessard.codebites.rabittmq.repositories.TaskRepository;
+import io.fdlessard.codebites.rabbitmq.domain.Customer;
+import io.fdlessard.codebites.rabbitmq.repositories.CustomerRepository;
+import io.fdlessard.codebites.rabbitmq.repositories.TaskRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

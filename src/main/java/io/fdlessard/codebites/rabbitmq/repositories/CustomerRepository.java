@@ -1,6 +1,6 @@
-package io.fdlessard.codebites.rabittmq.repositories;
+package io.fdlessard.codebites.rabbitmq.repositories;
 
-import io.fdlessard.codebites.rabittmq.domain.Customer;
+import io.fdlessard.codebites.rabbitmq.domain.Customer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
